@@ -1,0 +1,100 @@
+# FIGOV — Tarefas de Implementação
+
+Framework Integrado de Gestão Operacional de Vertiportos
+Especificação de referência: docs/FIGOV-Especificacao-do-Artefato.md
+Escopo: implementação do MVP em módulos (capacidade, agendamento, rede, segurança, validação, diretrizes)
+
+## Tarefa 0 — Estruturar o repositório e a documentação base
+
+- [ ] 0.1 Criar estrutura de pastas: docs/, src/, tests/, data/, config/
+- [ ] 0.2 Adicionar a especificação em docs/FIGOV-Especificacao-do-Artefato.md
+- [ ] 0.3 Criar README.md com visão geral do FIGOV, estrutura do repo e como executar o MVP
+- [ ] 0.4 Criar arquivos de configuração de dados de entrada vazios (vertiportos, frota, demanda, segurança) em data/ e config/, com schema documentado
+
+Critérios de aceitação: repositório executável do zero; especificação versionada; schemas de dados de entrada definidos e validáveis.
+
+## Tarefa 1 — RF-01: Modelo de capacidade do vertiporto
+
+Referência: RF-01 e P1 da especificação.
+
+- [ ] 1.1 Implementar modelo de capacidade: slots, áreas de pouso, tempos de ocupação e turnaround
+- [ ] 1.2 Implementar níveis de serviço: atraso médio por movimento; capacidade prática por atraso aceitável
+- [ ] 1.3 Parametrizar configuração de vertiporto por arquivo de entrada (config/vertiporto_*.json)
+- [ ] 1.4 Implementar cálculo de capacidade horária estimada
+- [ ] 1.5 Estruturar comparação contra simulação de eventos discretos de referência (10 réplicas por cenário)
+
+Critérios de aceitação: capacidade horária estimada com desvio máximo de x% [A DEFINIR] em relação à simulação de referência (média de 10 réplicas por cenário); nível de serviço expresso como atraso médio por movimento; capacidade prática definida por atraso aceitável de até y minutos [A DEFINIR] por movimento.
+
+Dependências: Tarefa 0.
+
+## Tarefa 2 — RF-02: Agendamento de frotas heterogêneas
+
+Referência: RF-02 e P2 da especificação.
+
+- [ ] 2.1 Modelar aeronave: envelope de voo, taxa de recarga, estado de carga, autonomia, tempo de recarga
+- [ ] 2.2 Implementar restrições energéticas de primeira ordem no modelo de agendamento
+- [ ] 2.3 Implementar gerador/avaliador de agendamentos (formulação MILP ou heurística documentada)
+- [ ] 2.4 Garantir reporte explícito da restrição violada em toda agenda rejeitada
+- [ ] 2.5 Validar desempenho: frotas de 8, 12, 16 e 20 aeronaves; rede de 2 a 4 vertiportos; demanda diária de ~2.800 passageiros (benchmark VertiSim)
+
+Critérios de aceitação: agenda factível (sem violação de restrições energéticas) em até 60 segundos por dia de operação, em hardware convencional; toda agenda rejeitada indica a restrição violada.
+
+Dependências: Tarefa 1 (usa capacidade do vertiporto como entrada).
+
+## Tarefa 3 — RF-03: Coordenação multi-vertiporto
+
+Referência: RF-03 e P3 da especificação.
+
+- [ ] 3.1 Modelar rede de vertiportos interconectados (2 a 4 nós)
+- [ ] 3.2 Implementar redistribuição de capacidade e demanda entre vertiportos
+- [ ] 3.3 Implementar indicadores agregados: atraso médio, utilização de áreas de pouso e de posições de estacionamento
+- [ ] 3.4 Implementar identificação de gargalos de capacidade ou energia por vertiporto
+- [ ] 3.5 Gerar relatório comparativo vertiporto a vertiporto
+
+Critérios de aceitação: para redes de 2 a 4 vertiportos, framework calcula indicadores agregados e identifica gargalos por vertiporto, com resultados comparáveis entre vertiportos.
+
+Dependências: Tarefa 2.
+
+## Tarefa 4 — RF-04: Segurança operacional como critério de aceitação
+
+Referência: RF-04 e P4 da especificação.
+
+- [ ] 4.1 Implementar modelo de risco ar-solo como restrição dos planos gerados
+- [ ] 4.2 Configurar nível alvo de segurança como parâmetro de entrada (fonte: EASA PTS-VPT e regulação ANAC em formação; valor numérico [A DEFINIR])
+- [ ] 4.3 Tratar sítios de contingência como dado de entrada obrigatório
+- [ ] 4.4 Implementar rejeição automática de planos que violam o nível alvo, com indicação explícita da violação
+
+Critérios de aceitação: planos que violarem o nível alvo de segurança são automaticamente rejeitados com indicação explícita; localização de sítios de contingência é obrigatória nos dados de entrada.
+
+Dependências: Tarefa 2 (aplica-se aos planos gerados).
+
+## Tarefa 5 — RF-05: Protocolo de validação
+
+Referência: RF-05 e P5 da especificação.
+
+- [ ] 5.1 Documentar protocolo de validação: parâmetros de entrada, cenários, réplicas, resultados
+- [ ] 5.2 Implementar execução de simulação parametrizada com dados realistas
+- [ ] 5.3 Implementar comparação com dados de referência por cenário
+- [ ] 5.4 Estruturar rastreabilidade cenário simulado ↔ cenário real correspondente (Living Lab Sapiens Parque) [disponibilidade de dados reais: A VERIFICAR]
+
+Critérios de aceitação: protocolo documenta parâmetros, cenários executados (mínimo de x réplicas [A DEFINIR] por cenário), resultados e comparação com dados de referência, com rastreabilidade entre cenário simulado e real.
+
+Dependências: Tarefas 1 a 4.
+
+## Tarefa 6 — RF-06: Diretrizes de implementação para o Brasil
+
+Referência: RF-06 e P6 da especificação.
+
+- [ ] 6.1 Redigir documento de diretrizes de implementação compatíveis com a regulação em formação (ANAC/DECEA) e com o ambiente de inovação nacional
+- [ ] 6.2 Referenciar em cada diretriz a norma, o instrumento regulatório ou a prática institucional correspondente [PENDENTE DE FONTE — não inventar referências]
+
+Critérios de aceitação: cada diretriz referencia a norma, o instrumento regulatório ou a prática institucional correspondente.
+
+Dependências: Tarefa 0; conteúdo consolidado das demais tarefas.
+
+## Notas gerais de execução
+
+- Manter rastreabilidade premissa → requisito → implementação (RNF-03).
+- Módulos (capacidade, energia, segurança) intercambiáveis, com interface de entrada/saída documentada (RNF-02).
+- Aplicação a outras cidades apenas por configuração de dados de entrada, sem alteração de código (RNF-01).
+- Identificar componentes passíveis de proteção (software e/ou metodologia) ao final (RNF-04).

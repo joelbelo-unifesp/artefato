@@ -1,0 +1,9 @@
+{
+  "_nota": "nivel_alvo_risco e risco_por_movimento sao PLACEHOLDERS [A DEFINIR]. Fonte pretendida: EASA PTS-VPT e regulacao ANAC em formacao. NAO representam valores validados por literatura; devem ser justificados antes de qualquer conclusao.",
+  "nivel_alvo_risco": 1.0e-6,
+  "risco_por_movimento": 5.0e-8,
+  "sitios_contingencia": [
+    { "id": "CTG-1", "lat": -27.4200, "lon": -48.4000 },
+    { "id": "CTG-2", "lat": -27.5900, "lon": -48.5500 }
+  ]
+}

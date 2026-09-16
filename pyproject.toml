@@ -1,0 +1,27 @@
+[project]
+name = "figov"
+version = "0.1.0"
+description = "FIGOV — Framework Integrado de Gestão Operacional de Vertiportos (MVP / protótipo computacional)"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Joel Belo" }]
+# MVP sem dependências externas de runtime: usa apenas a biblioteca padrão do Python.
+# Isso mantém o repositório executável do zero em ambientes restritos (RNF-05 / reprodutibilidade).
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+figov = "figov.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

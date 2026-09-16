@@ -1,0 +1,7 @@
+{
+  "_nota": "desvio_capacidade_max_pct (x%), atraso_aceitavel_min (y min) e replicas_referencia sao [A DEFINIR]. Os valores abaixo sao placeholders operacionais para permitir a execucao do MVP; NAO estao ancorados em literatura/benchmark e devem ser justificados (ver checklist da especificacao).",
+  "seed": 42,
+  "desvio_capacidade_max_pct": 10.0,
+  "atraso_aceitavel_min": 5.0,
+  "replicas_referencia": 10
+}

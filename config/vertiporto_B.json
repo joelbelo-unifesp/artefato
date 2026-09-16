@@ -1,0 +1,10 @@
+{
+  "id": "VPB",
+  "nome": "Vertiporto B (exemplo)",
+  "fatos": 2,
+  "stands": 6,
+  "tempo_ocupacao_fato_min": 3.0,
+  "turnaround_min": 10.0,
+  "janela_operacional_h": 18.0,
+  "pontos_recarga": 6
+}

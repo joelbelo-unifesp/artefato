@@ -1,0 +1,269 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 3 /Kids [5 0 R 7 0 R 9 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.276 841.890] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 7977 >>
+stream
+BT /F2 20.0 Tf 0 0 0 rg 1 0 0 1 56.00 765.89 Tm (FIGOV \227 Relat\363rio de Andamento do Artefato) Tj ET
+BT /F1 11.0 Tf 0 0 0 rg 1 0 0 1 56.00 737.89 Tm (Framework Integrado de Gest\343o Operacional de Vertiportos) Tj ET
+BT /F1 8.5 Tf 0.35 0.35 0.35 rg 1 0 0 1 56.00 720.54 Tm (Documento de acompanhamento para orienta\347\343o  |  14 de setembro de 2026  |  Autor: Joel Belo) Tj ET
+BT /F1 8.5 Tf 0.35 0.35 0.35 rg 1 0 0 1 56.00 705.06 Tm (Natureza: artefato cient\355fico-tecnol\363gico de apoio \340 decis\343o \(Design Science Research\)) Tj ET
+0.6 w 0.7 0.7 0.7 RG 56.00 698.09 m 539.28 698.09 l S
+0.6 w 0.7 0.7 0.7 RG 56.00 692.09 m 539.28 692.09 l S
+BT /F2 14.0 Tf 0 0 0 rg 1 0 0 1 56.00 672.09 Tm (1. Sum\341rio executivo) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 56.00 651.19 Tm (O artefato FIGOV avan\347ou da fase de especifica\347\343o para a de prot\363tipo computacional funcional.) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 56.00 637.69 Tm (Encontra-se implementada uma primeira vers\343o execut\341vel \(MVP\) que integra as seis dimens\365es) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 56.00 624.19 Tm (previstas \227 capacidade, agendamento de frota heterog\352nea, energia, coordena\347\343o em rede,) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 56.00 610.69 Tm (seguran\347a e diretrizes regulat\363rias \227 e adiciona uma camada de apoio \340 decis\343o. Todos os) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 56.00 597.19 Tm (requisitos funcionais \(RF-01 a RF-07\) possuem implementa\347\343o verific\341vel por testes) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 56.00 583.69 Tm (automatizados.) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 66.00 565.19 Tm (\225  N\355vel 1 \(framework conceitual\): consolidado na especifica\347\343o.) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 66.00 549.69 Tm (\225  N\355vel 2 \(framework operacional\): par\342metros, vari\341veis, algoritmos e crit\351rios definidos.) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 66.00 534.19 Tm (\225  N\355vel 3 \(prot\363tipo computacional\): implementado e execut\341vel \(MVP\).) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 56.00 516.69 Tm (Situa\347\343o-chave para a banca: \340 pergunta "onde est\341 o produto tecnol\363gico?", a resposta agora \351) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 56.00 503.19 Tm (um prot\363tipo que recebe dados, gera e avalia agendas, identifica conflitos, verifica restri\347\365es,) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 56.00 489.69 Tm (rejeita solu\347\365es inseguras e compara cen\341rios.) Tj ET
+0.6 w 0.7 0.7 0.7 RG 56.00 481.19 m 539.28 481.19 l S
+BT /F2 14.0 Tf 0 0 0 rg 1 0 0 1 56.00 461.19 Tm (2. Estado atual do prot\363tipo \(n\372meros\)) Tj ET
+0.90 0.90 0.90 rg 56.00 432.59 483.28 17.70 re f
+BT /F2 9.0 Tf 0 0 0 rg 1 0 0 1 59.00 438.29 Tm (Indicador) Tj ET
+BT /F2 9.0 Tf 0 0 0 rg 1 0 0 1 359.00 438.29 Tm (Valor) Tj ET
+0.4 w 0.75 0.75 0.75 RG 56.00 450.29 m 539.28 450.29 l S
+56.00 432.59 m 539.28 432.59 l S
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 59.00 420.59 Tm (Requisitos funcionais implementados) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 359.00 420.59 Tm (RF-01 a RF-07 \(7 de 7\)) Tj ET
+0.4 w 0.75 0.75 0.75 RG 56.00 432.59 m 539.28 432.59 l S
+56.00 414.89 m 539.28 414.89 l S
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 59.00 402.89 Tm (Linhas de c\363digo \(pacote figov\)) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 359.00 402.89 Tm (aprox. 1.900) Tj ET
+0.4 w 0.75 0.75 0.75 RG 56.00 414.89 m 539.28 414.89 l S
+56.00 397.19 m 539.28 397.19 l S
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 59.00 385.19 Tm (Testes automatizados) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 359.00 385.19 Tm (29 \(100% aprovados\)) Tj ET
+0.4 w 0.75 0.75 0.75 RG 56.00 397.19 m 539.28 397.19 l S
+56.00 379.49 m 539.28 379.49 l S
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 59.00 367.49 Tm (Depend\352ncias externas de runtime) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 359.00 367.49 Tm (nenhuma \(apenas biblioteca padr\343o\)) Tj ET
+0.4 w 0.75 0.75 0.75 RG 56.00 379.49 m 539.28 379.49 l S
+56.00 361.79 m 539.28 361.79 l S
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 59.00 349.79 Tm (Interface) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 359.00 349.79 Tm (CLI: run / comparar / validar) Tj ET
+0.4 w 0.75 0.75 0.75 RG 56.00 361.79 m 539.28 361.79 l S
+56.00 344.09 m 539.28 344.09 l S
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 59.00 332.09 Tm (Reprodutibilidade) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 359.00 332.09 Tm (determin\355stica por semente \(RNF-01\)) Tj ET
+0.4 w 0.75 0.75 0.75 RG 56.00 344.09 m 539.28 344.09 l S
+56.00 326.39 m 539.28 326.39 l S
+0.6 w 0.7 0.7 0.7 RG 56.00 318.39 m 539.28 318.39 l S
+BT /F2 14.0 Tf 0 0 0 rg 1 0 0 1 56.00 298.39 Tm (3. Cobertura por requisito) Tj ET
+0.90 0.90 0.90 rg 56.00 269.79 483.28 17.70 re f
+BT /F2 9.0 Tf 0 0 0 rg 1 0 0 1 59.00 275.49 Tm (Req.) Tj ET
+BT /F2 9.0 Tf 0 0 0 rg 1 0 0 1 99.00 275.49 Tm (Componente) Tj ET
+BT /F2 9.0 Tf 0 0 0 rg 1 0 0 1 191.00 275.49 Tm (Situa\347\343o / evid\352ncia) Tj ET
+0.4 w 0.75 0.75 0.75 RG 56.00 287.49 m 539.28 287.49 l S
+56.00 269.79 m 539.28 269.79 l S
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 59.00 257.79 Tm (RF-01) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 99.00 257.79 Tm (Capacidade) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 191.00 257.79 Tm (Capacidade te\363rica e pr\341tica + fila M/M/c + simula\347\343o de eventos discretos) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 191.00 246.09 Tm (de refer\352ncia \(10 r\351plicas\). Compara\347\343o anal\355tico x simulado converge) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 191.00 234.39 Tm (\(desvios de 5,1% e 4,1%\).) Tj ET
+0.4 w 0.75 0.75 0.75 RG 56.00 269.79 m 539.28 269.79 l S
+56.00 228.69 m 539.28 228.69 l S
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 59.00 216.69 Tm (RF-02) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 99.00 216.69 Tm (Agendamento) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 191.00 216.69 Tm (Frota heterog\352nea com energia \(SoC/recarga\). Cerca de 2.800 passageiros/dia) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 191.00 204.99 Tm (agendados em menos de 10 ms \(crit\351rio: 60 s\). Toda rejei\347\343o indica a) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 191.00 193.29 Tm (restri\347\343o violada.) Tj ET
+0.4 w 0.75 0.75 0.75 RG 56.00 228.69 m 539.28 228.69 l S
+56.00 187.59 m 539.28 187.59 l S
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 59.00 175.59 Tm (RF-03) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 99.00 175.59 Tm (Rede) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 191.00 175.59 Tm (Coordena\347\343o de 2 a 4 vertiportos. Opera\347\343o em rede eleva o atendimento de 4%) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 191.00 163.89 Tm (\(isolado\) para 81% \(rede\); melhoria robusta em 10 de 10 sementes.) Tj ET
+0.4 w 0.75 0.75 0.75 RG 56.00 187.59 m 539.28 187.59 l S
+56.00 158.19 m 539.28 158.19 l S
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 59.00 146.19 Tm (RF-04) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 99.00 146.19 Tm (Seguran\347a) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 191.00 146.19 Tm (Guardrail transversal: risco ar-solo parametriz\341vel, s\355tios de conting\352ncia) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 191.00 134.49 Tm (obrigat\363rios, rejei\347\343o autom\341tica com indica\347\343o expl\355cita.) Tj ET
+0.4 w 0.75 0.75 0.75 RG 56.00 158.19 m 539.28 158.19 l S
+56.00 128.79 m 539.28 128.79 l S
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 59.00 116.79 Tm (RF-05) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 99.00 116.79 Tm (Valida\347\343o) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 191.00 116.79 Tm (Pipeline sequencial iterativo + protocolo documentado + rastreabilidade) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 191.00 105.09 Tm (simulado x real \(Living Lab: A VERIFICAR\).) Tj ET
+0.4 w 0.75 0.75 0.75 RG 56.00 128.79 m 539.28 128.79 l S
+56.00 99.39 m 539.28 99.39 l S
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 59.00 87.39 Tm (RF-06) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 99.00 87.39 Tm (Regula\347\343o/Brasil) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 191.00 87.39 Tm (13 diretrizes de implementa\347\343o; refer\352ncias externas marcadas como PENDENTE) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 191.00 75.69 Tm (DE FONTE \(nenhuma refer\352ncia inventada\).) Tj ET
+0.4 w 0.75 0.75 0.75 RG 56.00 99.39 m 539.28 99.39 l S
+56.00 69.99 m 539.28 69.99 l S
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.276 841.890] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 8266 >>
+stream
+0.90 0.90 0.90 rg 56.00 768.19 483.28 17.70 re f
+BT /F2 9.0 Tf 0 0 0 rg 1 0 0 1 59.00 773.89 Tm (Req.) Tj ET
+BT /F2 9.0 Tf 0 0 0 rg 1 0 0 1 99.00 773.89 Tm (Componente) Tj ET
+BT /F2 9.0 Tf 0 0 0 rg 1 0 0 1 191.00 773.89 Tm (Situa\347\343o / evid\352ncia) Tj ET
+0.4 w 0.75 0.75 0.75 RG 56.00 785.89 m 539.28 785.89 l S
+56.00 768.19 m 539.28 768.19 l S
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 59.00 756.19 Tm (RF-07) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 99.00 756.19 Tm (Apoio \340 decis\343o) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 191.00 756.19 Tm (Compara\347\343o de pelo menos duas alternativas com identifica\347\343o da restri\347\343o) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 191.00 744.49 Tm (limitante.) Tj ET
+0.4 w 0.75 0.75 0.75 RG 56.00 768.19 m 539.28 768.19 l S
+56.00 738.79 m 539.28 738.79 l S
+0.6 w 0.7 0.7 0.7 RG 56.00 730.79 m 539.28 730.79 l S
+BT /F2 14.0 Tf 0 0 0 rg 1 0 0 1 56.00 710.79 Tm (4. Resultado preliminar de maior relev\342ncia cient\355fica) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 56.00 689.89 Tm (A compara\347\343o entre opera\347\343o isolada e coordenada em rede \351 a evid\352ncia que sustenta a lacuna) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 56.00 676.39 Tm (cient\355fica do trabalho: a integra\347\343o das dimens\365es altera materialmente as decis\365es) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 56.00 662.89 Tm (operacionais.) Tj ET
+0.90 0.90 0.90 rg 56.00 636.69 483.28 17.70 re f
+BT /F2 9.0 Tf 0 0 0 rg 1 0 0 1 59.00 642.39 Tm (Modo de opera\347\343o) Tj ET
+BT /F2 9.0 Tf 0 0 0 rg 1 0 0 1 259.00 642.39 Tm (Atendimento \(exemplo, 3 n\363s\)) Tj ET
+BT /F2 9.0 Tf 0 0 0 rg 1 0 0 1 429.00 642.39 Tm (Restri\347\343o limitante) Tj ET
+0.4 w 0.75 0.75 0.75 RG 56.00 654.39 m 539.28 654.39 l S
+56.00 636.69 m 539.28 636.69 l S
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 59.00 624.69 Tm (Isolado \(n\363s independentes\)) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 259.00 624.69 Tm (aprox. 4%) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 429.00 624.69 Tm (frota/energia por n\363) Tj ET
+0.4 w 0.75 0.75 0.75 RG 56.00 636.69 m 539.28 636.69 l S
+56.00 618.99 m 539.28 618.99 l S
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 59.00 606.99 Tm (Coordenado em rede) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 259.00 606.99 Tm (aprox. 81%) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 429.00 606.99 Tm (capacidade do) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 429.00 595.29 Tm (vertiporto) Tj ET
+0.4 w 0.75 0.75 0.75 RG 56.00 618.99 m 539.28 618.99 l S
+56.00 589.59 m 539.28 589.59 l S
+BT /F1 8.5 Tf 0.35 0.35 0.35 rg 1 0 0 1 56.00 573.09 Tm (Observa\347\343o: o baseline isolado \351 deliberadamente severo \(frota particionada por n\363, sem compartilhamento\). Serve) Tj ET
+BT /F1 8.5 Tf 0.35 0.35 0.35 rg 1 0 0 1 56.00 561.61 Tm (para evidenciar o ganho da coordena\347\343o; um baseline mais fino \351 um refinamento previsto.) Tj ET
+0.6 w 0.7 0.7 0.7 RG 56.00 554.64 m 539.28 554.64 l S
+BT /F2 14.0 Tf 0 0 0 rg 1 0 0 1 56.00 534.64 Tm (5. Decis\365es metodol\363gicas e integridade dos dados) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 66.00 513.74 Tm (\225  Valores em aberto tratados como par\342metros, n\343o como constantes: o desvio m\341ximo de) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 66.00 500.24 Tm (capacidade \(x%\), o atraso aceit\341vel \(y min\), o n\355vel alvo de seguran\347a e o n\372mero de r\351plicas) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 66.00 486.74 Tm (est\343o marcados como A DEFINIR e implementados como configura\347\343o.) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 66.00 471.24 Tm (\225  Nenhum valor foi atribu\355do a fontes de literatura sem justificativa: os n\372meros presentes) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 66.00 457.74 Tm (s\343o espa\347os reservados operacionais, explicitamente sinalizados.) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 66.00 442.24 Tm (\225  Refer\352ncias regulat\363rias \(RF-06\) permanecem como PENDENTE DE FONTE, a preencher na fonte) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 66.00 428.74 Tm (prim\341ria \(ANAC/DECEA/EASA\).) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 66.00 413.24 Tm (\225  Living Lab \(Sapiens Parque\) tratado como valida\347\343o complementar, condicional \340) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 66.00 399.74 Tm (disponibilidade de dados reais; a valida\347\343o principal por simula\347\343o sustenta a tese.) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 66.00 384.24 Tm (\225  Rastreabilidade cient\355fica \(premissa -> requisito -> implementa\347\343o -> teste\) adotada como) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 66.00 370.74 Tm (caracter\355stica central do artefato.) Tj ET
+0.6 w 0.7 0.7 0.7 RG 56.00 365.24 m 539.28 365.24 l S
+BT /F2 14.0 Tf 0 0 0 rg 1 0 0 1 56.00 345.24 Tm (6. Ajuste t\351cnico relevante registrado) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 56.00 324.34 Tm (Durante a implementa\347\343o identificou-se que, sem a realimenta\347\343o Energia -> Agendamento, a frota) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 56.00 310.84 Tm (nunca recarregava e o atendimento estagnava \(cerca de 10%\). A corre\347\343o \227 recarga pelo tempo) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 56.00 297.34 Tm (ocioso antes de avaliar a viabilidade energ\351tica \227 elevou o atendimento para cerca de 87% e) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 56.00 283.84 Tm (tornou a agenda energeticamente consistente. O epis\363dio confirma, na pr\341tica, o acoplamento) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 56.00 270.34 Tm (entre dimens\365es previsto na especifica\347\343o \(grafo de depend\352ncias\).) Tj ET
+0.6 w 0.7 0.7 0.7 RG 56.00 261.84 m 539.28 261.84 l S
+BT /F2 14.0 Tf 0 0 0 rg 1 0 0 1 56.00 241.84 Tm (7. Situa\347\343o das tarefas de implementa\347\343o) Tj ET
+0.90 0.90 0.90 rg 56.00 213.24 483.28 17.70 re f
+BT /F2 9.0 Tf 0 0 0 rg 1 0 0 1 59.00 218.94 Tm (Tarefa) Tj ET
+BT /F2 9.0 Tf 0 0 0 rg 1 0 0 1 129.00 218.94 Tm (Descri\347\343o) Tj ET
+BT /F2 9.0 Tf 0 0 0 rg 1 0 0 1 442.00 218.94 Tm (Situa\347\343o) Tj ET
+0.4 w 0.75 0.75 0.75 RG 56.00 230.94 m 539.28 230.94 l S
+56.00 213.24 m 539.28 213.24 l S
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 59.00 201.24 Tm (Tarefa 0) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 129.00 201.24 Tm (Estrutura do reposit\363rio e schemas de entrada) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 442.00 201.24 Tm (Conclu\355da) Tj ET
+0.4 w 0.75 0.75 0.75 RG 56.00 213.24 m 539.28 213.24 l S
+56.00 195.54 m 539.28 195.54 l S
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 59.00 183.54 Tm (Tarefa 1) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 129.00 183.54 Tm (RF-01 Capacidade) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 442.00 183.54 Tm (Conclu\355da) Tj ET
+0.4 w 0.75 0.75 0.75 RG 56.00 195.54 m 539.28 195.54 l S
+56.00 177.84 m 539.28 177.84 l S
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 59.00 165.84 Tm (Tarefa 2) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 129.00 165.84 Tm (RF-02 Agendamento de frota heterog\352nea) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 442.00 165.84 Tm (Conclu\355da) Tj ET
+0.4 w 0.75 0.75 0.75 RG 56.00 177.84 m 539.28 177.84 l S
+56.00 160.14 m 539.28 160.14 l S
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 59.00 148.14 Tm (Tarefa 3) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 129.00 148.14 Tm (RF-03 Coordena\347\343o multi-vertiporto) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 442.00 148.14 Tm (Conclu\355da) Tj ET
+0.4 w 0.75 0.75 0.75 RG 56.00 160.14 m 539.28 160.14 l S
+56.00 142.44 m 539.28 142.44 l S
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 59.00 130.44 Tm (Tarefa 4) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 129.00 130.44 Tm (RF-04 Seguran\347a operacional) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 442.00 130.44 Tm (Conclu\355da) Tj ET
+0.4 w 0.75 0.75 0.75 RG 56.00 142.44 m 539.28 142.44 l S
+56.00 124.74 m 539.28 124.74 l S
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 59.00 112.74 Tm (Tarefa 5) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 129.00 112.74 Tm (RF-05 Protocolo de valida\347\343o) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 442.00 112.74 Tm (Conclu\355da) Tj ET
+0.4 w 0.75 0.75 0.75 RG 56.00 124.74 m 539.28 124.74 l S
+56.00 107.04 m 539.28 107.04 l S
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 59.00 95.04 Tm (Tarefa 6) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 129.00 95.04 Tm (RF-06 Diretrizes para o Brasil) Tj ET
+BT /F1 9.0 Tf 0 0 0 rg 1 0 0 1 442.00 95.04 Tm (Conclu\355da) Tj ET
+0.4 w 0.75 0.75 0.75 RG 56.00 107.04 m 539.28 107.04 l S
+56.00 89.34 m 539.28 89.34 l S
+0.6 w 0.7 0.7 0.7 RG 56.00 81.34 m 539.28 81.34 l S
+BT /F2 14.0 Tf 0 0 0 rg 1 0 0 1 56.00 61.34 Tm (8. Pr\363ximos passos propostos) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.276 841.890] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 2108 >>
+stream
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 66.00 775.89 Tm (\225  Definir e justificar os limiares em aberto \(x%, y min, n\355vel de seguran\347a\).) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 66.00 760.39 Tm (\225  Preencher as refer\352ncias regulat\363rias na fonte prim\341ria \(ANAC/DECEA/EASA\).) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 66.00 744.89 Tm (\225  Refinar o baseline de opera\347\343o isolada para uma compara\347\343o mais conservadora.) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 66.00 729.39 Tm (\225  Avaliar a otimiza\347\343o acoplada como alternativa \340 heur\355stica \(trabalho futuro / artigo\).) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 66.00 713.89 Tm (\225  Verificar a disponibilidade de dados reais do Living Lab \(valida\347\343o complementar\).) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 66.00 698.39 Tm (\225  Preparar o recorte do artigo de congresso \(capacidade + agendamento + energia\).) Tj ET
+0.6 w 0.7 0.7 0.7 RG 56.00 692.89 m 539.28 692.89 l S
+BT /F2 14.0 Tf 0 0 0 rg 1 0 0 1 56.00 672.89 Tm (9. Pontos para decis\343o em orienta\347\343o) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 66.00 651.99 Tm (\225  Aprova\347\343o da inclus\343o do RF-07 \(apoio \340 decis\343o\) como requisito.) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 66.00 636.49 Tm (\225  Aprova\347\343o da ordem de resolu\347\343o sequencial iterativa para o prot\363tipo v1.) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 66.00 620.99 Tm (\225  Valida\347\343o do recorte e do cronograma do primeiro artigo.) Tj ET
+BT /F1 10.0 Tf 0 0 0 rg 1 0 0 1 66.00 605.49 Tm (\225  Direcionamento sobre os limiares num\351ricos e suas fontes.) Tj ET
+0.6 w 0.7 0.7 0.7 RG 56.00 599.99 m 539.28 599.99 l S
+BT /F1 8.5 Tf 0.35 0.35 0.35 rg 1 0 0 1 56.00 585.49 Tm (Este relat\363rio reflete o estado do prot\363tipo na data indicada. M\351tricas de execu\347\343o \(atendimento, atrasos,) Tj ET
+BT /F1 8.5 Tf 0.35 0.35 0.35 rg 1 0 0 1 56.00 574.01 Tm (desvios\) referem-se a cen\341rios de exemplo parametrizados e reprodut\355veis; os limiares de aceita\347\343o permanecem A) Tj ET
+BT /F1 8.5 Tf 0.35 0.35 0.35 rg 1 0 0 1 56.00 562.54 Tm (DEFINIR.) Tj ET
+endstream
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000133 00000 n 
+0000000230 00000 n 
+0000000332 00000 n 
+0000000476 00000 n 
+0000008505 00000 n 
+0000008649 00000 n 
+0000016967 00000 n 
+0000017112 00000 n 
+trailer
+<< /Size 11 /Root 1 0 R >>
+startxref
+19273
+%%EOF
